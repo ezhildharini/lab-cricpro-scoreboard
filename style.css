@@ -1,16 +1,56 @@
 /* Type your code here */
-
-
+*{
+    font-family: 'Times New Roman';
+}
+a{
+	cursor: pointer;
+	color: deepskyblue;
+	text-decoration: none;
+}
+#logo{
+	float: right;
+}
+.titleHead{
+	margin-left: 80px;
+	padding-top: 40px;
+	padding-bottom: 0px;
+	font-size: 50px;
+	font-weight: bold;
+	text-shadow: 0 0 6px grey;
+}
+.titleSubject{
+	margin-left: 80px;
+	padding-top: 0px;
+	padding-bottom: 30px;
+	font-size: 25px;
+}
+.container{
+	margin-left: 80px;
+	background-color:white;
+	width: fit-content;
+}
+#inningsScoreHeading{
+	background-color: rgb(255, 115, 0);
+	color: white;
+}
+#teamInnings{
+	text-align: left;
+}
+td{
+	padding: 5px 10px;
+}
+tr{
+	box-shadow: 0 2px gray;
+}
 /* change the font family and spacing as per your project font */
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
+	top: 40px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
-    
+    font-style: normal;   
 }
